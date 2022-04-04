@@ -1,0 +1,33 @@
+.mynav {
+  text-decoration: none;
+  position: relative;
+  margin: 0 10px;
+  padding: 0 5px;
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.2s all linear;
+  color: rgb(51, 51, 51);
+}
+.mynav:hover {
+  color: red;
+}
+.mynav::after {
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 2px;
+  background-color: gray;
+  content: "";
+  position: absolute;
+}
+.mynav:hover::after {
+  background-color: red;
+}
+.isActive {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  position: relative;
+}
+.isActive::after {
+  background-color: red;
+}

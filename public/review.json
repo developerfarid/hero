@@ -1,0 +1,57 @@
+[
+    {
+       "_id":"01",
+       "describe":"I was looking for a good laptop that could make me enjoy my hobby of music production. I know the standards from the communities when it comes to music production,, but was not ready to exchange windows for a mac iOS. ",
+       "rating":3.6,
+       "email":"jibon@gmail.com",
+       "time":"2022-03-16T18:06:44.577Z",
+       "displayName":"Md. jibon Hossain",
+       "photoURL":"https://i.ibb.co/gZDW29R/160419-092630-md9c8c671c7-avatar.png"
+    },
+    {
+       "_id":"02",
+       "describe":"So far, everything I wanted in a personal computer - compact and powerful.",
+       "rating":4.6,
+       "email":"abd@gmail.com",
+       "time":"2022-03-16T18:08:09.694Z",
+       "displayName":"Md. abd Hossain",
+       "photoURL":"https://i.ibb.co/gZDW29R/160419-092630-md9c8c671c7-avatar.png"
+    },
+    {
+       "_id":"03",
+       "describe":"Great experience , I ordered a xps13 on the 10th and had it on the 25th , I absolutely love everything about this laptop , price my be the only down side ,however I don't regret spending the money on it.",
+       "rating":4.6,
+       "email":"Doe@gmail.com",
+       "time":"2022-03-16T18:14:45.856Z",
+       "displayName":"Md. Doe Hossain",
+       "photoURL":"https://i.ibb.co/XLbB00D/220323-115438-m273b9974a7-avatar.png"
+    },
+    {
+       "_id":"04",
+       "describe":"This is an excellent laptop full of cutting-edge features. I am pleased with the performance of this Laptop. The touch screen model that I have is responsive. Booting and starting the services takes a bit longer than I am used to.",
+       "rating":4.6,
+       "email":"jon@gmail.com",
+       "time":"2022-03-16T18:15:11.477Z",
+       "displayName":"Md. jon Hossain",
+       "photoURL":"https://i.ibb.co/mBmKg70/220302-033402-m1dec895bb4-avatar.png"
+    },
+    {
+       "_id":"05",
+       "describe":"Best screen size and resolution in a laptop. Great for viewing movies. Sound is much better than I expected from a device this size. Speed is much greater than needed.",
+       "rating":2.4,
+       "email":"robin@gmail.com",
+       "time":"2022-03-16T18:16:11.937Z",
+       "displayName":"Md. robin Hossain",
+       "photoURL":"https://i.ibb.co/XLbB00D/220323-115438-m273b9974a7-avatar.png"
+    },
+    {
+       "_id":"06",
+       "describe":"good to use, screen quality good..easy to carry light weight, overall good package, but yes little costly.",
+       "rating":1.8,
+       "email":"kamrul@gmail.com",
+       "time":"2022-03-16T18:20:44.837Z",
+       "displayName":"Md. kamrul Hossain",
+       "photoURL":"https://i.ibb.co/mBmKg70/220302-033402-m1dec895bb4-avatar.png"
+    }
+   
+ ]
