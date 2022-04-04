@@ -10,12 +10,14 @@ import Blog from "./Components/Blog/Blog";
 import About from "./Components/About/About";
 import Dashboard from "./Components/Dashboard/Dashboard";
 import ReviewPage from "./Components/Review/ReviewPage";
+import PageNotFound from "./Components/PageNotFound/PageNotFound";
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
       <Routes>
+        <Route path="*" element={<PageNotFound />} />
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/review" element={<ReviewPage />} />
