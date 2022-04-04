@@ -11,6 +11,7 @@ import About from "./Components/About/About";
 import Dashboard from "./Components/Dashboard/Dashboard";
 import ReviewPage from "./Components/Review/ReviewPage";
 import PageNotFound from "./Components/PageNotFound/PageNotFound";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/about" element={<About />} />
         <Route path="/dashoard" element={<Dashboard />} />
-    </Routes>
+      </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

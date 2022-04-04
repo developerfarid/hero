@@ -12,10 +12,10 @@ const Dashboard = () => {
     // const data = [{name: 'Page A', uv: 400, pv: 2400, amt: 2400}, {name: 'Page A', uv: 500, pv: 400, amt: 200}];
     return (
         <section>
-            <Container className='mt-5'>
+            <Container className='my-5'>
                 <Row lg={2}>
                     <Col className='text-center'>
-
+                        <h3 className='mb-4 text-center'>Month Wise Sell</h3>
                         <LineChart width={500} height={400} data={data} style={{ margin: "auto" }} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
                             <Line type="monotone" dataKey="sell" stroke="#8884d8" />
                             <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
@@ -26,6 +26,7 @@ const Dashboard = () => {
 
                     </Col>
                     <Col className='text-center'>
+              
                         <ResponsiveContainer width="100%" height="100%">
                             <AreaChart width={500} height={400} data={data}
                                 style={{ margin: "auto" }}
@@ -50,7 +51,7 @@ const Dashboard = () => {
                         </ResponsiveContainer>
                     </Col>
                     <Col className='text-center'>
-
+                    <h3 className='mb-4 text-center'>Investment Vs Revenue</h3>
                         <PieChart width={500} height={400} style={{ margin: "auto" }}>
                             <Pie data={data} dataKey="revenue" nameKey="revenue" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
                             <Pie data={data} dataKey="investment" nameKey="investment" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
@@ -73,7 +74,7 @@ const Dashboard = () => {
                         </ResponsiveContainer>
                     </Col>
                     <Col className='text-center m-auto'>
-
+                    <h3 className='mb-4 text-center'>Investment Vs Revenue</h3>
                         <AreaChart
                             style={{ margin: "auto" }}
                             width={500}
@@ -98,27 +99,27 @@ const Dashboard = () => {
                     </Col>
                     <Col className='m-auto'>
 
-                        <ResponsiveContainer width="100%" height="100%">
-                            <BarChart
-                                style={{ margin: "auto" }}
-                                width={500}
-                                height={400}
-                                data={data}
-                                margin={{
-                                    top: 20,
-                                    right: 0,
-                                    left: 20,
-                                    bottom: 5,
-                                }}>
-                                <CartesianGrid strokeDasharray="3 3" />
-                                <XAxis dataKey="month" />
-                                <YAxis />
-                                <Tooltip />
-                                <Legend />
-                                <Bar dataKey="investment" stackId="a" fill="#8884d8" />
-                                <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
-                            </BarChart>
-                        </ResponsiveContainer>
+                    <h3 className='mb-4 text-center'>Investment Vs Revenue</h3>
+                        <BarChart
+                            style={{ margin: "auto" }}
+                            width={500}
+                            height={400}
+                            data={data}
+                            margin={{
+                                top: 20,
+                                right: 0,
+                                left: 20,
+                                bottom: 5,
+                            }}>
+                            <CartesianGrid strokeDasharray="3 3" />
+                            <XAxis dataKey="month" />
+                            <YAxis />
+                            <Tooltip />
+                            <Legend />
+                            <Bar dataKey="investment" stackId="a" fill="#8884d8" />
+                            <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
+                        </BarChart>
+
                     </Col>
                 </Row>
             </Container>
